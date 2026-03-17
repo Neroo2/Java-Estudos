@@ -6,17 +6,17 @@ public class Rectangle {
     double height;
 
 
-    public double areaCalc(double w, double h){
-        return w * h;
+    public double areaCalc(){
+        return width * height;
     }
 
 
-    public double perimetroCalc(double w, double h){
-        return 2 * (w + h);
+    public double perimetroCalc(){
+        return 2 * (width + height);
     }
 
-    public double diagonalCalc(double w, double h){
-        return Math.sqrt(Math.pow(w, 2) + Math.pow(h, 2));
+    public double diagonalCalc(){
+        return Math.sqrt(Math.pow(width, 2) + Math.pow(height, 2));
     }
 
 }

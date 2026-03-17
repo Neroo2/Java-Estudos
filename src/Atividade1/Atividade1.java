@@ -12,9 +12,9 @@ public class Atividade1 {
         rec.width = sc.nextDouble();
         rec.height = sc.nextDouble();
 
-        System.out.println("Area: " + rec.areaCalc(rec.width, rec.height));
-        System.out.println("Perimetro: " + rec.perimetroCalc(rec.width, rec.height));
-        System.out.println("Diagonal: " + rec.diagonalCalc(rec.width, rec.height));
+        System.out.println("Area: " + rec.areaCalc());
+        System.out.println("Perimetro: " + rec.perimetroCalc());
+        System.out.println("Diagonal: " + rec.diagonalCalc());
 
         sc.close();
 
